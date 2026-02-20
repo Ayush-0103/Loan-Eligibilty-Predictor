@@ -17,8 +17,7 @@ An end-to-end <b>AI-powered fintech web application</b> that predicts whether a 
 
 <h2>🌐 Live Demo</h2>
 <p>
-Frontend: https://YOUR-FRONTEND-LINK<br>
-Backend API: https://YOUR-BACKEND-LINK
+Link : https://loan-iota-three.vercel.app/
 </p>
 
 <hr>
