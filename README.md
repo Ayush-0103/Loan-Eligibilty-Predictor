@@ -1,369 +1,202 @@
-# 🏦 AI Loan Eligibility Predictor
+<h1>🏦 AI Loan Eligibility Predictor</h1>
 
-An end-to-end AI-powered fintech web application that predicts whether a user is eligible for a loan using machine learning, explainable AI, and an intelligent financial chatbot.
+<p>
+An end-to-end <b>AI-powered fintech web application</b> that predicts whether a user is eligible for a loan using machine learning, explainable AI, and an intelligent financial chatbot.
+</p>
 
-This project demonstrates a production-style system combining:
+<p>This project demonstrates a <b>production-style system</b> combining:</p>
+<ul>
+<li>Machine Learning model training</li>
+<li>Explainable AI (SHAP feature impact)</li>
+<li>Risk scoring engine</li>
+<li>Full-stack React + Flask architecture</li>
+<li>LLM-powered financial assistant chatbot</li>
+</ul>
 
-• Machine Learning model training  
-• Explainable AI (SHAP feature impact)  
-• Risk scoring engine  
-• Full-stack React + Flask architecture  
-• LLM-powered financial assistant chatbot  
+<hr>
 
----
+<h2>🌐 Live Demo</h2>
+<p>
+Frontend: https://YOUR-FRONTEND-LINK<br>
+Backend API: https://YOUR-BACKEND-LINK
+</p>
 
-## 🌐 Live Demo
+<hr>
 
-Frontend: https://YOUR-FRONTEND-LINK  
-Backend API: https://YOUR-BACKEND-LINK  
+<h2>🚀 Features</h2>
 
----
+<h3>🤖 AI Loan Prediction</h3>
+<ul>
+<li>RandomForestClassifier trained on financial dataset</li>
+<li>Predicts loan approval using income, CIBIL score, assets, loan amount, etc.</li>
+<li>Returns approval decision with confidence score</li>
+</ul>
 
-## 🚀 Features
+<h3>📊 Explainable AI (SHAP)</h3>
+<ul>
+<li>Displays top factors affecting prediction</li>
+<li>Makes model transparent and interpretable</li>
+<li>Visual feature-impact bar chart</li>
+</ul>
 
-### 🤖 AI Loan Prediction
-- RandomForestClassifier trained on financial dataset
-- Predicts loan approval based on income, CIBIL, assets, loan amount, etc.
-- Returns approval decision with confidence score
+<h3>🎯 Risk Scoring System</h3>
+<ul>
+<li>Low Risk</li>
+<li>Medium Risk</li>
+<li>High Risk</li>
+</ul>
+<p>Displayed visually in the UI.</p>
 
-### 📊 Explainable AI (SHAP)
-- Shows top factors affecting prediction
-- Makes model transparent and interpretable
-- Visual feature-impact bar chart
+<h3>🧠 Smart Explanation Engine</h3>
+<ul>
+<li>Human-readable approval/rejection explanation</li>
+<li>Detects weak financial indicators</li>
+<li>Provides actionable improvement suggestions</li>
+</ul>
 
-### 🎯 Risk Scoring System
-- Converts model confidence into:
-  - Low Risk
-  - Medium Risk
-  - High Risk
-- Displayed visually in UI
+<h3>💬 AI Financial Chatbot</h3>
+<ul>
+<li>Uses LLM to answer user queries</li>
+<li>Understands user’s prediction context</li>
+<li>Provides personalized loan advice</li>
+<li>Mimics real banking assistant behavior</li>
+</ul>
 
-### 🧠 Smart Explanation Engine
-- Human-readable explanation of approval/rejection
-- Detects weak financial indicators
-- Provides actionable improvement suggestions
+<h3>🎨 Modern Fintech UI</h3>
+<ul>
+<li>React + TypeScript + Tailwind</li>
+<li>Glassmorphism design</li>
+<li>Smooth animations</li>
+<li>Interactive charts and indicators</li>
+<li>Responsive layout</li>
+</ul>
 
-### 💬 AI Financial Chatbot
-- Uses LLM to answer user queries
-- Understands user's specific prediction
-- Gives personalized loan advice
-- Mimics real banking assistant behavior
+<hr>
 
-### 🎨 Modern Fintech UI
-- Built with React + TypeScript + Tailwind
-- Glassmorphism design
-- Smooth animations
-- Interactive charts and indicators
-- Responsive layout
+<h2>🏗️ Tech Stack</h2>
 
----
+<h3>Frontend</h3>
+<ul>
+<li>React (Vite)</li>
+<li>TypeScript</li>
+<li>TailwindCSS</li>
+<li>Recharts</li>
+<li>Lucide Icons</li>
+</ul>
 
-## 🏗️ Tech Stack
+<h3>Backend</h3>
+<ul>
+<li>Flask API</li>
+<li>scikit-learn</li>
+<li>SHAP explainability</li>
+<li>Pandas / NumPy</li>
+<li>joblib model persistence</li>
+<li>OpenAI API (chatbot)</li>
+</ul>
 
-### Frontend
-- React (Vite)
-- TypeScript
-- TailwindCSS
-- Recharts
-- Lucide Icons
+<h3>Deployment</h3>
+<ul>
+<li>Frontend → Vercel</li>
+<li>Backend → Render / Railway / Cloud VM</li>
+<li>Source Control → GitHub</li>
+</ul>
 
-### Backend
-- Flask API
-- scikit-learn
-- SHAP explainability
-- Pandas / NumPy
-- joblib model persistence
-- OpenAI API (chatbot)
+<hr>
 
-### Deployment
-- Frontend → Vercel
-- Backend → Render / Railway / Cloud VM
-- Source Control → GitHub
+<h2>📂 Project Structure</h2>
 
----
-
-## 📂 Project Structure
-# 🏦 AI Loan Eligibility Predictor
-
-An end-to-end AI-powered fintech web application that predicts whether a user is eligible for a loan using machine learning, explainable AI, and an intelligent financial chatbot.
-
-This project demonstrates a production-style system combining:
-
-• Machine Learning model training  
-• Explainable AI (SHAP feature impact)  
-• Risk scoring engine  
-• Full-stack React + Flask architecture  
-• LLM-powered financial assistant chatbot  
-
----
-
-## 🌐 Live Demo
-
-Frontend: https://YOUR-FRONTEND-LINK  
-Backend API: https://YOUR-BACKEND-LINK  
-
----
-
-## 🚀 Features
-
-### 🤖 AI Loan Prediction
-- RandomForestClassifier trained on financial dataset
-- Predicts loan approval based on income, CIBIL, assets, loan amount, etc.
-- Returns approval decision with confidence score
-
-### 📊 Explainable AI (SHAP)
-- Shows top factors affecting prediction
-- Makes model transparent and interpretable
-- Visual feature-impact bar chart
-
-### 🎯 Risk Scoring System
-- Converts model confidence into:
-  - Low Risk
-  - Medium Risk
-  - High Risk
-- Displayed visually in UI
-
-### 🧠 Smart Explanation Engine
-- Human-readable explanation of approval/rejection
-- Detects weak financial indicators
-- Provides actionable improvement suggestions
-
-### 💬 AI Financial Chatbot
-- Uses LLM to answer user queries
-- Understands user's specific prediction
-- Gives personalized loan advice
-- Mimics real banking assistant behavior
-
-### 🎨 Modern Fintech UI
-- Built with React + TypeScript + Tailwind
-- Glassmorphism design
-- Smooth animations
-- Interactive charts and indicators
-- Responsive layout
-
----
-
-## 🏗️ Tech Stack
-
-### Frontend
-- React (Vite)
-- TypeScript
-- TailwindCSS
-- Recharts
-- Lucide Icons
-
-### Backend
-- Flask API
-- scikit-learn
-- SHAP explainability
-- Pandas / NumPy
-- joblib model persistence
-- OpenAI API (chatbot)
-
-### Deployment
-- Frontend → Vercel
-- Backend → Render / Railway / Cloud VM
-- Source Control → GitHub
-
----
-
-## 📂 Project Structure
-# 🏦 AI Loan Eligibility Predictor
-
-An end-to-end AI-powered fintech web application that predicts whether a user is eligible for a loan using machine learning, explainable AI, and an intelligent financial chatbot.
-
-This project demonstrates a production-style system combining:
-
-• Machine Learning model training  
-• Explainable AI (SHAP feature impact)  
-• Risk scoring engine  
-• Full-stack React + Flask architecture  
-• LLM-powered financial assistant chatbot  
-
----
-
-## 🌐 Live Demo
-
-Frontend: https://YOUR-FRONTEND-LINK  
-Backend API: https://YOUR-BACKEND-LINK  
-
----
-
-## 🚀 Features
-
-### 🤖 AI Loan Prediction
-- RandomForestClassifier trained on financial dataset
-- Predicts loan approval based on income, CIBIL, assets, loan amount, etc.
-- Returns approval decision with confidence score
-
-### 📊 Explainable AI (SHAP)
-- Shows top factors affecting prediction
-- Makes model transparent and interpretable
-- Visual feature-impact bar chart
-
-### 🎯 Risk Scoring System
-- Converts model confidence into:
-  - Low Risk
-  - Medium Risk
-  - High Risk
-- Displayed visually in UI
-
-### 🧠 Smart Explanation Engine
-- Human-readable explanation of approval/rejection
-- Detects weak financial indicators
-- Provides actionable improvement suggestions
-
-### 💬 AI Financial Chatbot
-- Uses LLM to answer user queries
-- Understands user's specific prediction
-- Gives personalized loan advice
-- Mimics real banking assistant behavior
-
-### 🎨 Modern Fintech UI
-- Built with React + TypeScript + Tailwind
-- Glassmorphism design
-- Smooth animations
-- Interactive charts and indicators
-- Responsive layout
-
----
-
-## 🏗️ Tech Stack
-
-### Frontend
-- React (Vite)
-- TypeScript
-- TailwindCSS
-- Recharts
-- Lucide Icons
-
-### Backend
-- Flask API
-- scikit-learn
-- SHAP explainability
-- Pandas / NumPy
-- joblib model persistence
-- OpenAI API (chatbot)
-
-### Deployment
-- Frontend → Vercel
-- Backend → Render / Railway / Cloud VM
-- Source Control → GitHub
-
----
-
-## 📂 Project Structure
+<pre>
 fintech-3d-vision
 │
-├── frontend/ # React UI
-│ ├── src/components
-│ ├── src/services
-│ ├── src/config
-│ └── pages
+├── frontend/                 # React UI
+│   ├── src/components
+│   ├── src/services
+│   ├── src/config
+│   └── pages
 │
-├── backend/ # Flask ML API
-│ ├── app.py
-│ ├── train_model.py
-│ ├── loan_model.pkl
-│ ├── encoders.pkl
-│ └── model_columns.pkl
+├── backend/                  # Flask ML API
+│   ├── app.py
+│   ├── train_model.py
+│   ├── loan_model.pkl
+│   ├── encoders.pkl
+│   └── model_columns.pkl
 │
 └── README.md
+</pre>
 
+<hr>
 
----
+<h2>⚙️ How It Works</h2>
 
-## ⚙️ How It Works
+<ol>
+<li>User enters financial details in UI</li>
+<li>React sends request to Flask backend</li>
+</ol>
 
-1. User enters financial details in UI
-2. React sends request to Flask backend
-3. Backend:
-   - preprocesses input
-   - loads trained model
-   - predicts approval
-   - calculates risk score
-   - generates SHAP explanation
-4. UI displays:
-   - approval result
-   - confidence %
-   - risk level
-   - feature impact chart
-5. Chatbot can answer questions about the decision
+<p><b>Backend workflow:</b></p>
+<ul>
+<li>Preprocesses input</li>
+<li>Loads trained model</li>
+<li>Predicts approval</li>
+<li>Calculates risk score</li>
+<li>Generates SHAP explanation</li>
+</ul>
 
----
+<p><b>Frontend displays:</b></p>
+<ul>
+<li>Approval result</li>
+<li>Confidence percentage</li>
+<li>Risk level</li>
+<li>Feature-impact chart</li>
+</ul>
 
-## 🧪 Model Training
+<p>The chatbot can also answer questions about the decision.</p>
 
-The training pipeline:
+<hr>
 
-- Dataset cleaning
-- Label encoding
-- Train-test split
-- RandomForestClassifier training
-- Model saved using joblib
+<h2>🧪 Model Training</h2>
 
-Training script:
+<p>Training pipeline includes:</p>
+<ul>
+<li>Dataset cleaning</li>
+<li>Label encoding</li>
+<li>Train-test split</li>
+<li>RandomForestClassifier training</li>
+<li>Model persistence using joblib</li>
+</ul>
 
----
+<p><b>Run training script:</b></p>
 
-## ⚙️ How It Works
+<pre>python backend/train_model.py</pre>
 
-1. User enters financial details in UI
-2. React sends request to Flask backend
-3. Backend:
-   - preprocesses input
-   - loads trained model
-   - predicts approval
-   - calculates risk score
-   - generates SHAP explanation
-4. UI displays:
-   - approval result
-   - confidence %
-   - risk level
-   - feature impact chart
-5. Chatbot can answer questions about the decision
+<hr>
 
----
+<h2>📈 Future Improvements</h2>
+<ul>
+<li>Bank-grade credit scoring logic</li>
+<li>Model retraining dashboard</li>
+<li>Multiple ML model comparison</li>
+<li>Document upload verification</li>
+<li>Fraud detection module</li>
+<li>Production authentication layer</li>
+</ul>
 
-## 🧪 Model Training
+<hr>
 
-The training pipeline:
+<h2>👨‍💻 Author</h2>
 
-- Dataset cleaning
-- Label encoding
-- Train-test split
-- RandomForestClassifier training
-- Model saved using joblib
-
-Training script:
-backend/train_model.py
-
-
----
-
-## 📈 Future Improvements
-
-- Bank-grade credit scoring logic
-- Model retraining dashboard
-- Multiple ML models comparison
-- Document upload verification
-- Fraud detection module
-- Production authentication layer
-
----
-
-## 👨‍💻 Author
-
-**Ayush**
-
-AI / ML Enthusiast  
+<p>
+<b>Ayush</b><br>
+AI / ML Enthusiast<br>
 Building real-world AI systems with explainability and production deployment.
+</p>
 
-GitHub: https://github.com/YOUR_USERNAME  
+<p>
+GitHub: https://github.com/YOUR_USERNAME<br>
 LinkedIn: Add your link here
+</p>
 
----
+<hr>
 
-## ⭐ If you like this project
-
-Give it a star — it helps a lot.
+<h2>⭐ If you like this project</h2>
+<p>Give it a star — it really helps.</p>
